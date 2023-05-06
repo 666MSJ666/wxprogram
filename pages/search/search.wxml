@@ -1,0 +1,11 @@
+<!--pages/search/search.wxml-->
+<view class="search-container">
+<!-- 添加点击跳转 -->
+  <view class="left-search">
+    <image class="item-image1" src="/images/searchImage/search.png"/>  
+    <input type="text" placeholder="搜索"/> 
+  </view>
+  <view class="right-search">
+
+  </view>
+</view>

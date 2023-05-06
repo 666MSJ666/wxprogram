@@ -1,0 +1,35 @@
+<!--pages/recommend/recommend.wxml-->
+<input type="text" class="text1" name="productName" placeholder="请输入商品名称"/>
+<textarea type="text"  class="text2" name="productDescription" placeholder="说点什么吧"/>
+<text>添加图片描述</text>
+<view class="imagebox">
+  <image src="/images/recommend/addPicture.png" />  
+</view>
+<view class="more">
+  <view class="date">
+    <text class="datetext">购买日期</text>
+    <picker mode="date" value="{{date}}" start="2000-00-00" end="2023-09-01" bindchange="bindDateChange" >
+    <view>
+      <text decode="true">&nbsp;{{date}}</text>
+    </view>
+  </picker>
+  </view>
+
+<view class="where">
+  <text class="wheretext">购买渠道</text>
+  <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}" >
+     <view >
+      <text decode="true">&nbsp;{{array[index]}}</text>
+    </view>
+  </picker>
+</view>
+  
+  <view class="price">
+    <input type="text" class="text3" name="productName" placeholder="请输入商品价格"/>
+  </view>
+</view>
+
+<view class="buttonBox">
+  <button class="success" bindtap="gotoSuccessfullyPublished">确定发布</button>
+  <button class="cancel" bindtap="gotoIndex">取消</button>
+</view>

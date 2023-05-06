@@ -1,0 +1,28 @@
+/* pages/search/search.wxss */
+.search-container{
+  display: flex;
+  justify-content: space-between; /*两端布局 */
+  align-items: center;
+  padding: 10rpx 20rpx;
+  box-sizing: border-box;
+  background-color: #ddd;
+}
+.left-search{
+  background-color: #eee;
+  flex: 2;
+}
+.left-search image{
+  width: 48rpx;
+  height: 48rpx;
+  padding: 10rpx 20rpx 10rpx 10rpx;
+  vertical-align: middle;
+  
+}
+.left-search input{
+  display: inline-block;
+  vertical-align: middle;
+  width: calc(100% - 88rpx);
+}
+.right-search{
+  padding-left: 20rpx;
+}

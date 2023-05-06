@@ -1,0 +1,17 @@
+/* pages/publishSuccessfully/publishSuccessfully.wxss */
+button{
+  background-color: rgb(242,125,62);
+}
+.backbutton{
+  position:fixed;
+  bottom:0;
+  display:flex;
+  width:100%;
+  justify-content:center;
+}
+
+
+.text{
+  display: flex;
+  justify-content: center;
+}

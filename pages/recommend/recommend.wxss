@@ -1,0 +1,67 @@
+/* pages/recommend/recommend.wxss */
+.text1{
+  background-color: rgb(217, 228, 228);
+  padding: 20rpx;
+  margin: 10rpx 0rpx 20rpx 0rpx;
+  border:1px solid black;
+}
+
+.text2{
+  background-color: rgb(217, 228, 228);
+  padding: 20rpx;
+  margin: 10rpx 0rpx 0rpx 0rpx;
+  border:1px solid black;
+}
+
+ image{
+  height: 100rpx;
+  width: 100rpx;
+  padding: 100rpx;
+  margin: 10rpx 0rpx 0rpx 0rpx;
+  border:1px solid black;
+}
+.imagebox{
+  display: flex;
+  justify-content: center;
+  text-align:center;
+}
+.more{
+  margin-top: 10rpx;
+}
+
+.more .price{
+  border:1px solid black;
+  margin-bottom: 30rpx;
+}
+
+
+.buttonBox{
+  display: flex;  
+}
+.buttonBox .success{
+  border:1px solid black;
+  margin: 5rpx;
+  background-color: #F27D3E;
+}
+.buttonBox .cancel{
+  border:1px solid black;
+  margin: 5rpx;
+}
+.wheretext{
+  float: left;
+}
+
+.datetext{
+  float: left;
+}
+picker{
+  margin-left: 80px;
+  margin-right: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border:1px solid black;
+}
+
+
+
+

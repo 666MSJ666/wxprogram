@@ -1,0 +1,40 @@
+/* pages/productDetails/productDetails.wxss */
+.imagebox{
+  text-align:center;
+}
+.imagebox image{
+  height: 500rpx;
+  width: 500rpx;
+  border:1px solid black;  
+}
+.box1 {
+  border:2px solid black;
+  margin-bottom: 10rpx;
+}
+.box1-1{
+  border-bottom:1px solid black;
+}
+.box2{
+  border:2px solid black;
+  margin-bottom: 10rpx;
+}
+.box2 navigator{
+  border-top:1px solid black;
+}
+.box3-1 image{
+  height: 300rpx;
+  width: 300rpx;
+  border:1px solid black;
+}
+.box3-2 image{
+  height: 300rpx;
+  width: 300rpx;
+  border:1px solid black;
+}
+.box3{
+  display: flex;
+  justify-content: center;
+  text-align:center;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+}

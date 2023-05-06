@@ -1,0 +1,36 @@
+<!--pages/productDetails/productDetails.wxml-->
+<view class="imagebox">
+  <image src="/images/personal/focusProduct.jpg" mode=""/>
+</view>
+<view class="box1">
+  <view class="box1-1">
+    <view>
+      <text>￥20.00</text>
+    </view>
+    <view>
+    <text>发布时间： xx年xx月xx日</text>
+    </view>
+  </view>
+  <view>
+    <text>六升椰子汁</text>
+  </view>
+</view>
+
+<view class="box2">
+  <view>
+    <text>购买渠道：xx街道xx号</text>
+  </view>
+  <view>
+    <navigator url="/pages/comment/comment"><view>评价</view>
+    </navigator>
+  </view>
+</view>
+
+<view class="box3">
+  <view class="box3-1">
+    <image src="" mode=""/>
+  </view>
+  <view class="box3-2">
+    <image src="/images/productDetails/graph.png"/>
+  </view>
+</view>

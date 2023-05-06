@@ -1,0 +1,8 @@
+<!--pages/publishSuccessfully/publishSuccessfully.wxml-->
+
+<view class="text">
+  <text>发布成功</text>
+</view>
+<view class="backbutton">
+  <button bindtap="gotoIndex">返回首页</button>
+</view>

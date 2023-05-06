@@ -1,0 +1,6 @@
+<!--pages/addcomment/addcomment.wxml-->
+<textarea type="text"  class="text" name="comment" placeholder="畅所欲言吧！！！"/>
+<view class="buttonBox">
+  <button class="success" bindtap="gotoSuccessfullyComment">确认</button>
+  <button class="cancel" bindtap="gotoIndex">取消</button>
+</view>
